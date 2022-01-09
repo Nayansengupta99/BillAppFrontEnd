@@ -1,0 +1,29 @@
+<div class="bg-image" style="background-image: url('https://wallpapercave.com/wp/wp4064809.jpg');
+    height: 100vh;">
+    <br>
+    <!-- <h2 class='text-center' style="color:blueviolet"> List of Items</h2> -->
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th> Order-Id</th>
+                <th> Bill-Id </th>
+                <th> Price</th>
+                <th> Item Name </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let bill of bills">
+                <td> {{ bill.id }} </td>
+                <td> {{ bill.billId }} </td>
+                <td> ₹ {{ bill.price}} </td>
+                <td> {{ bill.name}} </td>
+                <!-- <td>
+                <button (click)="updateEmployee(employee.id)" class="btn btn-info"> Update</button>
+                <button (click)="deleteEmployee(employee.id)" class="btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click)="employeeDetails(employee.id)" class="btn btn-info" style="margin-left: 10px"> View</button>
+            </td> -->
+            </tr>
+        </tbody>
+    </table>
+
+</div>
