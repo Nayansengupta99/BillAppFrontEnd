@@ -1,0 +1,29 @@
+<body>
+
+    <div class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3RhdGlvbmVyeXxlbnwwfHwwfHw%3D&w=1000&q=80');
+    height: 100vh">
+
+        <div class="container center_div col-md-6 offset-md-3">
+            <br>
+            <h3> Update Your Bill </h3>
+            <form (ngSubmit)="onSubmit()">
+
+
+
+                <div class="form-group">
+                    <label> Price</label>
+                    <input type="number" class="form-control" id="price" [(ngModel)]="bill.price" name="price">
+                </div>
+
+                <div class="form-group">
+                    <label>Item Name</label>
+                    <input type="text" class="form-control" id="name" [(ngModel)]="bill.name" name="name">
+                </div>
+
+                <br>
+                <button class="btn btn-success" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</body>

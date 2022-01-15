@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BillingListComponent } from './billing-list/billing-list.component';
 import { CreateBillComponent } from './create-bill/create-bill.component';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { UpdateBillComponent } from './update-bill/update-bill.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     BillingListComponent,
-    CreateBillComponent
+    CreateBillComponent,
+    UpdateBillComponent
+
   ],
   imports: [
     BrowserModule,

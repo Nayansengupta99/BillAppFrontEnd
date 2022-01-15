@@ -1,0 +1,12 @@
+.bg-image {
+    background: url('https://i.pinimg.com/originals/57/a3/78/57a378c88099a6366e5bff1b9d5f125d.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.center_div {
+    margin: 0 auto;
+    width: 80%/* value of your choice which suits your alignment */
+}

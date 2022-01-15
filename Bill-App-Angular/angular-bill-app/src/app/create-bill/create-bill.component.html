@@ -8,15 +8,9 @@
             <h3> Create Your Bill </h3>
             <form (ngSubmit)="onSubmit()">
 
-                <div class="form-group">
-                    <label> Item ID</label>
-                    <input type="number" class="form-control" id="id" [(ngModel)]="bill.id" name="itemId">
-                </div>
 
-                <div class="form-group">
-                    <label> Bill ID</label>
-                    <input type="number" class="form-control" id="billId" [(ngModel)]="bill.billId" name="billId">
-                </div>
+                <!-- [(ngModel)]="bill.price"
+                [(ngModel)]="bill.name"  -->
 
                 <div class="form-group">
                     <label> Price</label>
